@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="Test1">
+		<classes>
+			<class name="org.edu.Education" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<classes>
+			<class name="org.edu.Medicine" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+		<classes>
+			<class name="org.edu.Arts" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test4">
+		<classes>
+			<class name="org.edu.Engineering" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

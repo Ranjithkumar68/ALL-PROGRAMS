@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="144.241115">
+<testcase classname="Validation of AdactinHotel WebPage" name="TC01_Validation of OrderId which is created and displayed" time="47.277034">
+<system-out><![CDATA[Given User launch browser and open the Adactinhotel WebPage.................passed
+When User enters the valid userName and passWord............................passed
+And User Click on login Button..............................................passed
+Given User Verify the SearchHotel Page is displayed.........................passed
+When User Select Valid Details of Location,Hotel,RoomType,Number of Rooms, and enters the CheckIn Date ,CheckOut Date and Select the Adult Room ,ChildRoom.passed
+Then User Click on Submit Button............................................passed
+Then User Verify the Select Hotel Page is Displayed.........................passed
+And User click the Select Radio Button and  click the Continue Button.......passed
+Then Useer Verify the Book A Hotel Page is displayed........................passed
+When User enter the Valid FirstName,LastName,Billing Address,CreditCardNo and Select CreditCardType,Expiry Month,Expiry Year and Enter Valid Cvv.passed
+And User  click the Book Now Button.........................................passed
+Then User verify the OrderId is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of AdactinHotel WebPage" name="TC02_Validation of Adactin WebPage with different credentials" time="25.285744">
+<system-out><![CDATA[Given User launch browser and open the Adactinhotel WebPage.................passed
+When User enters the valid userName and passWord............................passed
+And User Click on login Button..............................................passed
+Given User Verify the SearchHotel Page is displayed.........................passed
+When User Select Valid Details of Location"Sydney",Hotel"Hotel Creek",RoomType"Standard",Number of Rooms"1 - One", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room"1 - One" ,ChildRoom"0 - None".passed
+Then User Click on Submit Button............................................passed
+Then User Verify the Select Hotel Page is Displayed.........................passed
+And User click the Select Radio Button and  click the Continue Button.......passed
+Then Useer Verify the Book A Hotel Page is displayed........................passed
+When User enter the Valid FirstName"Ranjith",LastName"kumar",Billing Address"Coimbatore",CreditCardNo"1234567890123456" and Select CreditCardType"American Express",Expiry Month"January",Expiry Year"2022" and Enter Valid Cvv"321".passed
+And User  click the Book Now Button.........................................passed
+Then User verify the OrderId is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of AdactinHotel WebPage" name="TC02_Validation of Adactin WebPage with different credentials 2" time="21.324182">
+<system-out><![CDATA[Given User launch browser and open the Adactinhotel WebPage.................passed
+When User enters the valid userName and passWord............................passed
+And User Click on login Button..............................................passed
+Given User Verify the SearchHotel Page is displayed.........................passed
+When User Select Valid Details of Location"Melbourne",Hotel"Hotel Sunshine",RoomType"Double",Number of Rooms"2 - Two", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room"2 - Two" ,ChildRoom"1 - One".passed
+Then User Click on Submit Button............................................passed
+Then User Verify the Select Hotel Page is Displayed.........................passed
+And User click the Select Radio Button and  click the Continue Button.......passed
+Then Useer Verify the Book A Hotel Page is displayed........................passed
+When User enter the Valid FirstName"Mahesh",LastName"kumar",Billing Address"Mayiladuthurai",CreditCardNo"6543210987654321" and Select CreditCardType"Master Card",Expiry Month"March",Expiry Year"2022" and Enter Valid Cvv"123".passed
+And User  click the Book Now Button.........................................passed
+Then User verify the OrderId is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of AdactinHotel WebPage" name="TC02_Validation of Adactin WebPage with different credentials 3" time="23.754635">
+<system-out><![CDATA[Given User launch browser and open the Adactinhotel WebPage.................passed
+When User enters the valid userName and passWord............................passed
+And User Click on login Button..............................................passed
+Given User Verify the SearchHotel Page is displayed.........................passed
+When User Select Valid Details of Location"Brisbane",Hotel"Hotel Hervey",RoomType"Deluxe",Number of Rooms"4 - Four", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room"3 - Three" ,ChildRoom"2 - Two".passed
+Then User Click on Submit Button............................................passed
+Then User Verify the Select Hotel Page is Displayed.........................passed
+And User click the Select Radio Button and  click the Continue Button.......passed
+Then Useer Verify the Book A Hotel Page is displayed........................passed
+When User enter the Valid FirstName"Kumar",LastName"kumar",Billing Address"Chennai",CreditCardNo"7894561237894561" and Select CreditCardType"American Express",Expiry Month"October",Expiry Year"2022" and Enter Valid Cvv"321".passed
+And User  click the Book Now Button.........................................passed
+Then User verify the OrderId is displayed...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of AdactinHotel WebPage" name="TC02_Validation of Adactin WebPage with different credentials 4" time="26.59952">
+<system-out><![CDATA[Given User launch browser and open the Adactinhotel WebPage.................passed
+When User enters the valid userName and passWord............................passed
+And User Click on login Button..............................................passed
+Given User Verify the SearchHotel Page is displayed.........................passed
+When User Select Valid Details of Location"London",Hotel"Hotel Cornice",RoomType"Super Deluxe",Number of Rooms"5 - Five", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room"4 - Four" ,ChildRoom"3 - Three".passed
+Then User Click on Submit Button............................................passed
+Then User Verify the Select Hotel Page is Displayed.........................passed
+And User click the Select Radio Button and  click the Continue Button.......passed
+Then Useer Verify the Book A Hotel Page is displayed........................passed
+When User enter the Valid FirstName"Jayakumar",LastName"T",Billing Address"Mayiladuthurai",CreditCardNo"8523697412587415" and Select CreditCardType"Master Card",Expiry Month"July",Expiry Year"2022" and Enter Valid Cvv"555".passed
+And User  click the Book Now Button.........................................passed
+Then User verify the OrderId is displayed...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

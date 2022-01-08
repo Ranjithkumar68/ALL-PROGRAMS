@@ -1,0 +1,1183 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5012400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and open the Adactinhotel WebPage",
+            "match": {
+              "location": "StepDefinition.user_launch_browser_and_open_the_Adactinhotel_WebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917582100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_userName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2074338700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on login Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-18T10:48:56.585Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20226558000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "TC01_Validation of OrderId which is created and displayed",
+        "description": "",
+        "id": "validation-of-adactinhotel-webpage;tc01-validation-of-orderid-which-is-created-and-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 1720666900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33255000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Verify the SearchHotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_SearchHotel_Page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3342376700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Select Valid Details of Location,Hotel,RoomType,Number of Rooms, and enters the CheckIn Date ,CheckOut Date and Select the Adult Room ,ChildRoom",
+            "match": {
+              "location": "StepDefinition.user_Select_Valid_Details_of_Location_Hotel_RoomType_Number_of_Rooms_and_enters_the_CheckIn_Date_CheckOut_Date_and_Select_the_Adult_Room_ChildRoom()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1572539600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Click on Submit Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20472800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Verify the Select Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_Select_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1502752000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click the Select Radio Button and  click the Continue Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Select_Radio_Button_and_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23825000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Useer Verify the Book A Hotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.useer_Verify_the_Book_A_Hotel_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4056339900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter the Valid FirstName,LastName,Billing Address,CreditCardNo and Select CreditCardType,Expiry Month,Expiry Year and Enter Valid Cvv",
+            "match": {
+              "location": "StepDefinition.user_enter_the_Valid_FirstName_LastName_Billing_Address_CreditCardNo_and_Select_CreditCardType_Expiry_Month_Expiry_Year_and_Enter_Valid_Cvv()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 256108900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User  click the Book Now Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7140563100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User verify the OrderId is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_the_OrderId_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 245000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and open the Adactinhotel WebPage",
+            "match": {
+              "location": "StepDefinition.user_launch_browser_and_open_the_Adactinhotel_WebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 807520000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_userName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1347006300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on login Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-18T10:49:39.641Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18106414600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "TC02_Validation of Adactin WebPage with different credentials",
+        "description": "",
+        "id": "validation-of-adactinhotel-webpage;tc02-validation-of-adactin-webpage-with-different-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1736020300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 37918200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Verify the SearchHotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_SearchHotel_Page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2343002400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Select Valid Details of Location\"Sydney\",Hotel\"Hotel Creek\",RoomType\"Standard\",Number of Rooms\"1 - One\", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room\"1 - One\" ,ChildRoom\"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 178
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 198
+                }
+              ],
+              "location": "StepDefinition.user_Select_Valid_Details_of_Location_Hotel_RoomType_Number_of_Rooms_and_enters_the_CheckIn_Date_CheckOut_Date_and_Select_the_Adult_Room_ChildRoom(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1215782200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click on Submit Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19051200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Verify the Select Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_Select_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1234923900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the Select Radio Button and  click the Continue Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Select_Radio_Button_and_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43159400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Useer Verify the Book A Hotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.useer_Verify_the_Book_A_Hotel_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3246462000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the Valid FirstName\"Ranjith\",LastName\"kumar\",Billing Address\"Coimbatore\",CreditCardNo\"1234567890123456\" and Select CreditCardType\"American Express\",Expiry Month\"January\",Expiry Year\"2022\" and Enter Valid Cvv\"321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ranjith\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Coimbatore\"",
+                  "offset": 71
+                },
+                {
+                  "val": "\"1234567890123456\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 140
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 171
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 192
+                },
+                {
+                  "val": "\"321\"",
+                  "offset": 218
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_Valid_FirstName_LastName_Billing_Address_CreditCardNo_and_Select_CreditCardType_Expiry_Month_Expiry_Year_and_Enter_Valid_Cvv(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 316079400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User  click the Book Now Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7112441800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify the OrderId is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_the_OrderId_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 300600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and open the Adactinhotel WebPage",
+            "match": {
+              "location": "StepDefinition.user_launch_browser_and_open_the_Adactinhotel_WebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 901059500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_userName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1293991500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on login Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-18T10:50:17.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13199890900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "TC02_Validation of Adactin WebPage with different credentials",
+        "description": "",
+        "id": "validation-of-adactinhotel-webpage;tc02-validation-of-adactin-webpage-with-different-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2109602700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25634200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Verify the SearchHotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_SearchHotel_Page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2229972700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Select Valid Details of Location\"Melbourne\",Hotel\"Hotel Sunshine\",RoomType\"Double\",Number of Rooms\"2 - Two\", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room\"2 - Two\" ,ChildRoom\"1 - One\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Hotel Sunshine\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"Double\"",
+                  "offset": 79
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 103
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 182
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 202
+                }
+              ],
+              "location": "StepDefinition.user_Select_Valid_Details_of_Location_Hotel_RoomType_Number_of_Rooms_and_enters_the_CheckIn_Date_CheckOut_Date_and_Select_the_Adult_Room_ChildRoom(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 949938800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click on Submit Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20124000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Verify the Select Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_Select_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1301863500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the Select Radio Button and  click the Continue Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Select_Radio_Button_and_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22713100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Useer Verify the Book A Hotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.useer_Verify_the_Book_A_Hotel_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2752888600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the Valid FirstName\"Mahesh\",LastName\"kumar\",Billing Address\"Mayiladuthurai\",CreditCardNo\"6543210987654321\" and Select CreditCardType\"Master Card\",Expiry Month\"March\",Expiry Year\"2022\" and Enter Valid Cvv\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mahesh\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"Mayiladuthurai\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"6543210987654321\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 143
+                },
+                {
+                  "val": "\"March\"",
+                  "offset": 169
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 188
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 214
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_Valid_FirstName_LastName_Billing_Address_CreditCardNo_and_Select_CreditCardType_Expiry_Month_Expiry_Year_and_Enter_Valid_Cvv(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224283900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User  click the Book Now Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7137505200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify the OrderId is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_the_OrderId_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 207700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and open the Adactinhotel WebPage",
+            "match": {
+              "location": "StepDefinition.user_launch_browser_and_open_the_Adactinhotel_WebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 778687000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_userName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1187264500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on login Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-18T10:50:49.391Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10561391200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "TC02_Validation of Adactin WebPage with different credentials",
+        "description": "",
+        "id": "validation-of-adactinhotel-webpage;tc02-validation-of-adactin-webpage-with-different-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1823449500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 61418400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Verify the SearchHotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_SearchHotel_Page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2372652800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Select Valid Details of Location\"Brisbane\",Hotel\"Hotel Hervey\",RoomType\"Deluxe\",Number of Rooms\"4 - Four\", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room\"3 - Three\" ,ChildRoom\"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brisbane\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Hotel Hervey\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Deluxe\"",
+                  "offset": 76
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 180
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 202
+                }
+              ],
+              "location": "StepDefinition.user_Select_Valid_Details_of_Location_Hotel_RoomType_Number_of_Rooms_and_enters_the_CheckIn_Date_CheckOut_Date_and_Select_the_Adult_Room_ChildRoom(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1180805900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click on Submit Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20590100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Verify the Select Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_Select_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1222588200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the Select Radio Button and  click the Continue Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Select_Radio_Button_and_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47735300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Useer Verify the Book A Hotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.useer_Verify_the_Book_A_Hotel_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2796321100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the Valid FirstName\"Kumar\",LastName\"kumar\",Billing Address\"Chennai\",CreditCardNo\"7894561237894561\" and Select CreditCardType\"American Express\",Expiry Month\"October\",Expiry Year\"2022\" and Enter Valid Cvv\"321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"kumar\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"7894561237894561\"",
+                  "offset": 91
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 135
+                },
+                {
+                  "val": "\"October\"",
+                  "offset": 166
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 187
+                },
+                {
+                  "val": "\"321\"",
+                  "offset": 213
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_Valid_FirstName_LastName_Billing_Address_CreditCardNo_and_Select_CreditCardType_Expiry_Month_Expiry_Year_and_Enter_Valid_Cvv(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222325400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User  click the Book Now Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7112048900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify the OrderId is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_the_OrderId_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 285300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch browser and open the Adactinhotel WebPage",
+            "match": {
+              "location": "StepDefinition.user_launch_browser_and_open_the_Adactinhotel_WebPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 739264200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the valid userName and passWord",
+            "match": {
+              "location": "StepDefinition.user_enters_the_valid_userName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1233839500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click on login Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_login_Button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-18T10:51:18.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9603815200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "TC02_Validation of Adactin WebPage with different credentials",
+        "description": "",
+        "id": "validation-of-adactinhotel-webpage;tc02-validation-of-adactin-webpage-with-different-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2018351500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24055100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User Verify the SearchHotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_SearchHotel_Page_is_displayed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2128092800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Select Valid Details of Location\"London\",Hotel\"Hotel Cornice\",RoomType\"Super Deluxe\",Number of Rooms\"5 - Five\", and enters the CheckIn Date ,CheckOut Date and Select the Adult Room\"4 - Four\" ,ChildRoom\"3 - Three\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"Super Deluxe\"",
+                  "offset": 75
+                },
+                {
+                  "val": "\"5 - Five\"",
+                  "offset": 105
+                },
+                {
+                  "val": "\"4 - Four\"",
+                  "offset": 185
+                },
+                {
+                  "val": "\"3 - Three\"",
+                  "offset": 206
+                }
+              ],
+              "location": "StepDefinition.user_Select_Valid_Details_of_Location_Hotel_RoomType_Number_of_Rooms_and_enters_the_CheckIn_Date_CheckOut_Date_and_Select_the_Adult_Room_ChildRoom(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 968205200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User Click on Submit Button",
+            "match": {
+              "location": "StepDefinition.user_Click_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31818500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Verify the Select Hotel Page is Displayed",
+            "match": {
+              "location": "StepDefinition.user_Verify_the_Select_Hotel_Page_is_Displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1239000700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click the Select Radio Button and  click the Continue Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Select_Radio_Button_and_click_the_Continue_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21247400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Useer Verify the Book A Hotel Page is displayed",
+            "match": {
+              "location": "StepDefinition.useer_Verify_the_Book_A_Hotel_Page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2871820000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enter the Valid FirstName\"Jayakumar\",LastName\"T\",Billing Address\"Mayiladuthurai\",CreditCardNo\"8523697412587415\" and Select CreditCardType\"Master Card\",Expiry Month\"July\",Expiry Year\"2022\" and Enter Valid Cvv\"555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jayakumar\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"T\"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"Mayiladuthurai\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"8523697412587415\"",
+                  "offset": 98
+                },
+                {
+                  "val": "\"Master Card\"",
+                  "offset": 142
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 168
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 186
+                },
+                {
+                  "val": "\"555\"",
+                  "offset": 212
+                }
+              ],
+              "location": "StepDefinition.user_enter_the_Valid_FirstName_LastName_Billing_Address_CreditCardNo_and_Select_CreditCardType_Expiry_Month_Expiry_Year_and_Enter_Valid_Cvv(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217694600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User  click the Book Now Button",
+            "match": {
+              "location": "StepDefinition.user_click_the_Book_Now_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7233327100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User verify the OrderId is displayed",
+            "match": {
+              "location": "StepDefinition.user_verify_the_OrderId_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of AdactinHotel WebPage",
+    "description": "",
+    "id": "validation-of-adactinhotel-webpage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Adactin.feature",
+    "tags": []
+  }
+]

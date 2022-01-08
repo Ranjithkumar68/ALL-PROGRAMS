@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+<parameter name="username" value="ranjithkumar68"></parameter>
+<parameter name="password" value="8Q551M"></parameter>
+<parameter name="firstname" value="RANJITHKUMAR"></parameter>
+<parameter name="lastname" value="JAYAKUMAR"></parameter>
+<parameter name="address" value="MAYILADUTHURAI"></parameter>
+  <parameter name="cardnumber" value="1234567890123456"></parameter>
+  <parameter name="cvv" value="123"></parameter>
+    <classes>
+      <class name="org.tcs.AdactinHotel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
